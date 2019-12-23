@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/letter.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Girassol|Lilita+One&display=swap" rel="stylesheet">
+	<script src="js/fet.js">
+    </script>
+	<title>News</title>
+</head>
+<body>
+	<header class="navbar" >
+			<div id="first">
+				<a href="#"><span style="" id="log">IG</span></a>
+				<div class="dropdown">
+					<a href="index.html" class="dropbth">Home</a>
+					<div class="dropdown-content">
+						<a href="#hiw" style="">How it works!</a>
+						<a href="news.html" style="">Ways to play</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="">Works</a>
+					<div class="dropdown-content">
+						<a href="#hiw" style=""> How it works!</a>
+						<a href="" style="">Training</a>
+					</div>
+			   </div>
+			</div>
+			<div id="second">
+				<a  onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign up-it's free!</a>
+				<a  onclick="document.getElementById('id00').style.display='block'" style="width:auto;">Log in</a>
+			</div>
+
+			<div id="id00" class="modal">
+			  
+			  <form class="modal-content animate" action="login.php" method="post">
+			    <div class="imgcontainer">
+			      <span onclick="document.getElementById('id00').style.display='none'" class="close" title="Close Modal">&times;</span>
+			      </div>
+
+			    <div class="container">
+			      <label for="uname"><b>Username</b></label>
+			      <input type="text" placeholder="Enter Username" name="username" required>
+
+			      <label for="psw"><b>Password</b></label>
+			      <input type="password" placeholder="Enter Password" name="password" required>
+			        
+			      <button type="submit" name="login_btn">Login</button>
+			      <label>
+			      </label>
+			    </div>
+			    <div class="container" style="background-color:#f1f1f1">
+			      <button type="button" onclick="document.getElementById('id00').style.display='none'" class="cancelbtn">Cancel</button>
+			    </div>
+			  </form>
+			</div>
+			<div id="id01" class="modal">
+				<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<form class="modal-content" method="post" action="register.php">
+					<div class="container">
+						<h1>Sign Up</h1>
+						<p>Please fill in this form to create an account.</p>
+						<hr>
+						<label for="user"><b>Username</b></label>
+							<input type="text" placeholder="Enter Username" name="username" required>
+						<label for="email"><b>Email</b></label>
+						<input type="text" placeholder="Enter Email" name="email" required>
+						<label for="psw"><b>Password</b></label>
+						<input type="password" placeholder="Enter Password" name="password" required>
+						<label for="psw-repeat"><b>Repeat Password</b></label>
+						<input type="password" placeholder="Repeat Password" name="password2" required>
+						<div class="clearfix">
+							<button type="submit" class="signupbtn" name="register_btn">Sign Up</button>	
+							<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						</div>
+					</div>
+				</form>
+			</div>
+	</header>
+	<h1 id="h1" style="margin-top:5%;">Ways to Play</h1>
+	<section id="" style="margin-top:4%;display: flex;flex-wrap: wrap; justify-content: center;" >
+		<div style="width: 400px;">
+			<div id="f0" style="display: flex;justify-content: center;">
+			</div>
+			<div>
+				<h2 id="d0" style="text-align: center;"></h1>
+				<p id="p0" style="display: flex;flex-wrap: wrap;text-align:center;">Info</p>
+			</div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f1" style="display: flex;justify-content: center;" ></div>
+			<div>
+				<h2 id="d1" style="text-align: center;"></h2>
+				<p id="p1" style="display: flex;flex-wrap: wrap;text-align: center;"></p>
+		</div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f2" style="display: flex;justify-content: center;"></div>
+			<div>
+				<h2 id="d2" style="text-align: center;"></h2>
+			    <p id="p2" style="display: flex;flex-wrap: wrap;text-align: center;"></p>
+			</div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f3" style="display: flex;justify-content: center;"></div>
+			<div><h2 id="d3" style="text-align: center;"></h2>
+			<p id="p3" style="display: flex;flex-wrap: wrap;text-align: center;"></p></div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f4" style="display: flex;justify-content: center;"></div>
+			<div><h2 id="d4" style="text-align: center;"></h2>
+			<p id="p4" style="display: flex;flex-wrap: wrap;text-align: center;"></p></div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f5" style="display: flex;justify-content: center;"></div>
+			<div><h2 id="d5" style="text-align: center;"></h2>
+			<p id="p5" style="display: flex;flex-wrap: wrap;text-align: center;"></p></div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f6" style="display: flex;justify-content: center;"></div>
+			<div><h2 id="d6" style="text-align: center;"></h2>
+			<p id="p6" style="display: flex;flex-wrap: wrap;text-align: center;"></p></div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f7" style="display: flex;justify-content: center;"></div>
+			<div><h2 id="d7" style="text-align: center;"></h2>
+			<p id="p7" style="display: flex;flex-wrap: wrap;text-align: center;"></p></div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f8" style="display: flex;justify-content: center;">
+			
+			</div>
+			<div><h2 id="d8" style="text-align: center;"></h2>
+			<p id="p8" style="display: flex;flex-wrap: wrap;text-align: center;"></p></div>
+		</div>
+		<div style="width: 400px;">
+			<div id="f9" style="display: flex;justify-content: center;">			
+			</div>
+			<div>
+				<h2 id="d9" style="text-align: center;"></h2>
+				<p id="p9" style="display: flex;flex-wrap: wrap;text-align: center;"></p>
+		</div>
+		</div>
+	</section>
+	
+</body>
+</html>
